@@ -1,6 +1,6 @@
 $(document).ready(function () {
     // Build the URL based on the search term
-    var url = "http://12.42.204.30:7941/ProjectSemesterTwo/assets/json/products.json";
+    var url = "https://aswinwilson.github.io/ProjectSemesterTwo/assets/json/products.json";
 
     $.getJSON(url, function (data) {
         var html = "";
