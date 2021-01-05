@@ -1,0 +1,47 @@
+/* Aswin Antony Wilson, c0774827 */
+
+.cardWrapper {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    .card {
+        width: 175px;
+        border: 2px solid #ffffff;
+        padding: 15px;
+        border-radius: 10px;
+        flex-basis: 100%;
+        margin-bottom: 1rem;
+
+        .imgWrapper {
+            height: 250px;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+
+        }
+
+        .imgInfo {
+            h3 {
+                margin-top: 0.75rem;
+                font-size: 1.25rem;
+            }
+        }
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    .cardWrapper .card {
+        flex-basis: 40%;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .cardWrapper .card {
+        flex-basis: 20%;
+    }
+}

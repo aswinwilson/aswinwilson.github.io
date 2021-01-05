@@ -1,0 +1,76 @@
+/* Aswin Antony Wilson, c0774827 */
+
+/*Styles Common to the whole page*/
+ol {
+    li {
+        text-align: left;
+    }
+}
+
+/*style displays desktop class*/
+.desktop {
+    display: none;
+
+    p {
+        text-align: left;
+    }
+
+    ol {
+        li {
+            list-style: lower-roman;
+        }
+    }
+}
+
+/*style displays mobile class*/
+.mobile {
+    background-color: #1e1c1c;
+    color: white;
+    border: 2px dashed white;
+    border-radius: 10px;
+    padding: 0 1em;
+}
+
+/*style specifies a display tablet class*/
+.tablet {
+    display: none;
+    background-color: white;
+    border: 2px dashed #b80606;
+    border-radius: 10px;
+    padding: 0 1em;
+
+    ol {
+        li {
+            list-style: lower-alpha;
+        }
+    }
+}
+
+@media only screen and (min-width: 660px) {
+
+    /*style hides mobile class*/
+    .mobile {
+        display: none;
+    }
+
+    /*style displays desktop class*/
+    .desktop {
+        display: none;
+    }
+
+    /*style specifies a display tablet class*/
+    .tablet {
+        display: block;
+    }
+}
+
+/*@Media query for desktop viewport targets screens with aminimum width of 1280px.*/
+@media only screen and (min-width: 1280px) {
+    .desktop {
+        display: inline;
+    }
+
+    .tablet {
+        display: none;
+    }
+}

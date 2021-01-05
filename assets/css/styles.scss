@@ -1,0 +1,115 @@
+body {
+    background-color: #ffffff;
+
+    header {
+        font-family: 'Recursive', sans-serif;
+    }
+
+    font-family: 'Roboto',
+    sans-serif;
+}
+
+/* Define Brand Color */
+.brand-color {
+    color: #b80606;
+    font-weight: 900;
+}
+
+// Setting the font-size for h2
+h2 {
+    font-size: 1.25em;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+//Overriding navbar padding
+.navbar {
+    padding: 0;
+}
+
+.list-group-item {
+    font-size: .75em;
+}
+
+.alert {
+    font-size: 0.7em;
+    padding: 0.35rem;
+}
+
+.bannerWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    .storeName {
+        position: absolute;
+        color: #fffef7;
+        font-size: 1.5rem;
+        user-select: none;
+        margin: 0;
+    }
+
+    .banner {
+        border-radius: 20px;
+        box-shadow: 0.5em 0.5em 0.5em #404040;
+    }
+}
+
+.navbar {
+    .navbar-brand {
+        display: flex;
+        align-items: center;
+
+        /* Style for the logo image  */
+        img {
+            border-radius: 50%;
+            padding: 2px;
+            border: 2px dashed #9e1600;
+            margin-right: 0.75rem;
+        }
+
+        /* Style on hover  */
+        img:hover {
+            border: 2px solid #9e1600;
+        }
+    }
+
+    .navbar-collapse {
+        justify-content: flex-end;
+
+        a {
+            &.nav-link {
+                font-size: 1.25rem;
+            }
+        }
+    }
+}
+
+footer {
+    .align-right {
+        text-align: end;
+    }
+
+    .align-center {
+        text-align: center;
+    }
+}
+
+// Media query for width greater than tablet 
+@media only screen and (min-width: 768px) {
+    .bannerWrapper {
+        .storeName {
+            font-size: 5rem;
+        }
+    }
+}
+
+// Media query for width greater than laptop 
+@media only screen and (min-width: 1024px) {
+    .bannerWrapper {
+        .storeName {
+            font-size: 7rem;
+        }
+    }
+}

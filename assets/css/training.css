@@ -1,0 +1,62 @@
+/* Aswin Antony Wilson, c0774827 */
+
+/* Style for table element */
+
+table {
+  border: 0.1em solid black;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  background-color: #FFFFFF;
+  box-shadow: 0.5em 0.1em 0.5em #404040;
+}
+
+th,
+td {
+  border: 0.1em solid black;
+  padding: 1em;
+
+}
+
+th {
+  background-color: #fe7979;
+  color: #FFFFFF;
+}
+
+td {
+  cursor: pointer;
+}
+
+/* Alternate Colors */
+tr:nth-child(even) {
+  background-color: #dfcece;
+}
+
+tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+/* Style for caption */
+caption {
+  font-size: 1.15rem;
+  font-weight: bold;
+  padding-bottom: 0.5em;
+  caption-side: top;
+}
+
+/* Hovering over rows */
+tr:hover {
+  background-color: #fe7979;
+}
+
+/* Style for the mobile  */
+@media only screen and (max-width: 768px) {
+  h2 {
+    font-size: 1em;
+  }
+
+  .desktop {
+    overflow-x: auto;
+  }
+}

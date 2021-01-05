@@ -1,0 +1,116 @@
+body {
+  background-color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+}
+
+body header {
+  font-family: 'Recursive', sans-serif;
+}
+
+/* Define Brand Color */
+.brand-color {
+  color: #b80606;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 1.25em;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.list-group-item {
+  font-size: .75em;
+}
+
+.alert {
+  font-size: 0.7em;
+  padding: 0.35rem;
+}
+
+.bannerWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.bannerWrapper .storeName {
+  position: absolute;
+  color: #fffef7;
+  font-size: 1.5rem;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  margin: 0;
+}
+
+.bannerWrapper .banner {
+  border-radius: 20px;
+  -webkit-box-shadow: 0.5em 0.5em 0.5em #404040;
+          box-shadow: 0.5em 0.5em 0.5em #404040;
+}
+
+.navbar .navbar-brand {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /* Style for the logo image  */
+  /* Style on hover  */
+}
+
+.navbar .navbar-brand img {
+  border-radius: 50%;
+  padding: 2px;
+  border: 2px dashed #9e1600;
+  margin-right: 0.75rem;
+}
+
+.navbar .navbar-brand img:hover {
+  border: 2px solid #9e1600;
+}
+
+.navbar .navbar-collapse {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.navbar .navbar-collapse a.nav-link {
+  font-size: 1.25rem;
+}
+
+footer .align-right {
+  text-align: end;
+}
+
+footer .align-center {
+  text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .bannerWrapper .storeName {
+    font-size: 5rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .bannerWrapper .storeName {
+    font-size: 7rem;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

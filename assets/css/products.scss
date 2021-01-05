@@ -1,0 +1,42 @@
+.productsWrapper {
+    .productCard {
+        margin-top: 1rem;
+        border: 2px solid lightblue;
+        padding: 15px;
+
+        h3 {
+            font-size: 1.20rem;
+            text-align: center;
+        }
+
+        .cardImageWrapper {
+            position: relative;
+
+            img {
+                width: 100%;
+            }
+
+            .rating {
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                background-color: lightgreen;
+                border-radius: 30px;
+                padding: 5px;
+            }
+
+            .shipping {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                background-color: bisque;
+                border-radius: 30px;
+                padding: 5px;
+            }
+        }
+
+        .model {
+            margin-top: 5px;
+        }
+    }
+}

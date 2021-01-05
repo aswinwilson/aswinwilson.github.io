@@ -1,0 +1,59 @@
+/* Aswin Antony Wilson, c0774827 */
+/* Styling the Main form element  */
+.form-row {
+  margin: 1rem 0 0 0;
+}
+
+label.error {
+  margin-top: 0.5rem;
+  color: red;
+}
+
+.responseHTML {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.responseHTML img {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  opacity: 0.3;
+  left: 50%;
+  width: 700px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.responseHTML h3 {
+  font-size: 2.5rem;
+}
+
+.responseHTML p {
+  font-size: 1.5rem;
+}
+
+html {
+  height: 100%;
+}
+
+html body {
+  height: 75%;
+}
+
+html body main {
+  height: 100%;
+}
+/*# sourceMappingURL=contact.css.map */

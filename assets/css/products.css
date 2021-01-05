@@ -1,0 +1,41 @@
+.productsWrapper .productCard {
+  margin-top: 1rem;
+  border: 2px solid lightblue;
+  padding: 15px;
+}
+
+.productsWrapper .productCard h3 {
+  font-size: 1.20rem;
+  text-align: center;
+}
+
+.productsWrapper .productCard .cardImageWrapper {
+  position: relative;
+}
+
+.productsWrapper .productCard .cardImageWrapper img {
+  width: 100%;
+}
+
+.productsWrapper .productCard .cardImageWrapper .rating {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: lightgreen;
+  border-radius: 30px;
+  padding: 5px;
+}
+
+.productsWrapper .productCard .cardImageWrapper .shipping {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: bisque;
+  border-radius: 30px;
+  padding: 5px;
+}
+
+.productsWrapper .productCard .model {
+  margin-top: 5px;
+}
+/*# sourceMappingURL=products.css.map */

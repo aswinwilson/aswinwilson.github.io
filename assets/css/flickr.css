@@ -1,0 +1,22 @@
+.flickrCardsWrapper .flickrCard h2 {
+  text-align: center;
+}
+
+.flickrCardsWrapper .flickrCard .cardImageWrapper {
+  max-width: 100%;
+  height: 250px;
+  position: relative;
+}
+
+.flickrCardsWrapper .flickrCard .cardImageWrapper img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.flickrCardsWrapper .flickrCard .imageTags {
+  text-align: center;
+}
+/*# sourceMappingURL=flickr.css.map */

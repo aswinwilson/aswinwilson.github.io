@@ -1,0 +1,17 @@
+.galleryWrapper {
+    padding: 1%;
+    background-color: brown;
+    img{
+        width: 100%;
+    }
+}
+.imagesWrapper{
+    height: 50%;
+    img{
+        width: 100%;
+    }
+    &:hover{
+        opacity: 0.85;
+        cursor: pointer;
+    }
+}

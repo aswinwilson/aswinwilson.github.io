@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Better Barbeques</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  <link rel="stylesheet" href="./assets/css/contact.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Recursive:wght@800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script src="./assets/scripts/highlightPlugin.js"></script>
+  <script src="./assets/scripts/jquery.validate.min.js"></script>
+  <script src="./assets/scripts/additional-methods.min.js"></script>
+  <script src="./assets/scripts/global.js"></script>
+  <script src="./assets/scripts/contactUsValidation.js"></script>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <header class="my-3 bannerWrapper">
+      <!-- Banner Image -->
+      <img class="banner w-100" src="./assets/images/bb_banner.jpg" alt="Banner Image">
+      <h1 class="storeName">Better Barbeques</h1>
+    </header>
+    <div class="row">
+      <div class="col-12">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="#">
+            <img src="./assets/images/bb_logo.jpg" width="75" height="75" class="d-inline-block align-top" alt="">
+            <span>Better Barbeques</span>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="ourteam.html">Our Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="products.html">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="training.html">Training</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="search.html">Search</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="contact.html">Contact Us <span class="sr-only">(current)</span></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <main>
+      <div class="row">
+        <div class="col-12">
+          <div class="my-3">
+            <h2>
+              Please feel free to contact us for any of your queries. Submit the below form and you will
+              receive a call back
+              from our customer care soon.
+            </h2>
+            <form action="response.html" method="get" name="contact_form" id="contact_form">
+              <div class="form-row">
+                <div class="col">
+                  <label for="fName">First Name</label>
+                  <input type="text" class="form-control" name="fName" id="fName"
+                    placeholder="Type in your first name here...">
+                </div>
+                <div class="col">
+                  <label for="lName">Last Name</label>
+                  <input type="text" class="form-control" name="lName" id="lName"
+                    placeholder="Type in your last name here...">
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col">
+                  <label for="email">Email</label>
+                  <input type="email" class="form-control" name="email" id="email"
+                    placeholder="Type in your email id here...">
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col">
+                  <label for="phone">Phone</label>
+                  <input type="tel" class="form-control" name="phone" id="phone" placeholder="999-999-9999">
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col">
+                  <p>Would you wish to receive calls from us?</p>
+                  <div class="offerCall">
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="offercalls" id="offercalls1" value="yes">
+                      <label class="form-check-label" for="offercalls1">Yes</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="offercalls" id="offercalls2" value="no">
+                      <label class="form-check-label" for="offercalls2">No</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col">
+                  <p>Do you wanna know more about us? </p>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" name="bbqgrill" id="bbqgrill" value="bbqgrill">
+                    <label class="form-check-label" for="bbqgrill">Barbeque Grill</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" name="bbqgrilldual" id="bbqgrilldual"
+                      value="bbqgrilldual">
+                    <label class="form-check-label" for="bbqgrilldual">Barbeque
+                      Dual Side Griller</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" name="bbqgrillcustom" id="bbqgrillcustom"
+                      value="bbqgrillcustom">
+                    <label class="form-check-label" for="bbqgrillcustom">Customised item? </label>
+                  </div>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col">
+                  <label for="reference">Referral Source:</label>
+                  <select class="form-control" name="reference" id="reference">
+                    <option value="ad">Advertisement</option>
+                    <option value="friend">Friend</option>
+                    <option value="google">Google</option>
+                    <option value="social">Social Media</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col">
+                  <label for="questions">Questions?</label>
+                  <textarea class="form-control" id="questions" name="questions" rows="3" cols="25"></textarea>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col">
+                  <input type="submit" id="submit" value="Submit" class="btn btn-primary" />
+                  <input type="reset" id="reset" value="Reset Form" class="btn btn-secondary" />
+                </div>
+              </div>
+            </form>
+            <div class="mt-3">
+              <p>
+                Find us here!<br />
+                125 College Avenue<br />
+                Sarnia<br>
+              </p>
+              <span>Phone Number: <a class="phone" href="tel:6669996666">(666) 999-6666</a> </span>
+              <br />
+              <span>Email Address: <a href="mailto:info@betterbarbeques.com"
+                  class="contact">info@betterbarbeques.com</a>
+              </span>
+            </div>
+          </div>
+        </div>
+    </main>
+    <footer class="mt-5">
+      <div class="row">
+        <div class="col-sm-4">
+          &copy; Copyright 2099. All Rights Reserved.
+        </div>
+        <div class="col-sm-4 align-center">
+          <a href="mailto:better@barbeques.net">Request Information</a>
+        </div>
+        <div class="col-sm-4  align-right">
+          Creator - Aswin Antony Wilson C0774827
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
